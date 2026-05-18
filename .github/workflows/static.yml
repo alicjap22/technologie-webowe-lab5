@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build project
-        run: npm run build -- --base=/<technologie-webowe-lab5>/
+        run: npm run build -- --base=/technologie-webowe-lab5/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
